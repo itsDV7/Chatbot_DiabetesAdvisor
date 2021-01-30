@@ -1,0 +1,193 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hola
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thanks
+    - thank you
+    - thank
+    - ty
+    - ok
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: feature_recommendation
+  examples: |
+    - Recommendation
+    - recommendation
+    - recommend
+    - Recommend
+    - recom
+    - Recom
+    - Please provide Recommendation
+    - please provide recommendation
+    - please Recommend
+    - Please recommend
+    - Recommend me
+    - recommend Me
+    - Give Recommendations
+    - give recommendations
+    
+- intent: get_gender_m
+  examples: |
+    - i am Male
+    - M
+    - m
+    - i'm Male
+    - male
+    
+- intent: get_gender_f
+  examples: |
+    - Female
+    - I'm Female
+    - F
+    - f
+    - i'm female
+    - female
+
+- intent: affirm
+  examples: |
+    - Y
+    - y
+    - Yes
+    - yes
+    - Correct
+    - correct
+    - true
+    - True
+    - Ye
+    - yep
+    - Yes I do
+    - I do
+    
+- intent: deny
+  examples: |
+    - N
+    - n
+    - No
+    - no
+    - I don't think so
+    - nah
+    - Nope
+    - nope
+    - Incorrect
+    - incorrect
+    - false
+    - False
+    
+- intent: get_Diabetes_Type1
+  examples: |
+    - i'm Type1 Diabetic
+    - im type 1 diabetic
+    - type 1
+    - Type 1
+    - t1
+    - t 1
+    - T 1
+    - T1
+    - Type1
+    - Type 1 diabetic
+    - type1 diabetic
+ 
+- intent: get_Diabetes_Type2
+  examples: |
+    - i'm Type2 Diabetic
+    - im type 2 diabetic
+    - type 2
+    - Type 2
+    - t2
+    - t 2
+    - T 2
+    - T2
+    - Type2
+    - Type 2 diabetic
+    - type2 diabetic
+    
+- intent: feature_reminder
+  examples: |
+    - Reminder
+    - reminder
+    - Remind me
+    - remind me
+    - Remind
+    - remind
+    - rem
+    - Rem
+    - set reminder
+    
+- intent: medicine_reminder
+  examples: |
+    - medicine
+    - meds
+    - Meds
+    - Medicines
+    - med
+    - Med
+    
+- intent: food_reminder
+  examples: |
+    - food
+    - eat
+    - remind me food
+    - lunch
+    - dinner
+    - breakfast
+    
+- intent: appointment_reminder
+  examples: |
+    - appointment
+    - doctor
+    - appoint
+    
+- intent: set_time
+  examples: |
+    - 12pm
+    - 10am
+    - 10:30
+    - 1300
+    - 12 oclock
+    - 1 oclock
+    - 15:29
+    - 1 pm
+    - 2 am
+
+- intent: diagnosis
+  examples: |
+    - diagnosis
+    - diagnose
+    - Diagnosis
+    - diag
+    - dig
